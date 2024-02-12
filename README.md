@@ -38,9 +38,6 @@ pip install nexium
 
 
 project_folder_struktur/
-│
-├── static/
-│   ├── main.js
 ├── templates/
 │   ├── index.html
 ├── .venv
