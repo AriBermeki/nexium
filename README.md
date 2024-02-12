@@ -4,7 +4,7 @@ Connect Python to JavaScript Bidirectional
 
 <p align="center">
   <a href="https://www.yellow-sic.com/">
-    <img width="100" src="logo.png" alt="Nexium Logo">
+    <img width="100" src="logo1.png" alt="Nexium Logo">
   </a>
 </p>
 
