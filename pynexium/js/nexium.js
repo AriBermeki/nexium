@@ -64,13 +64,13 @@ Nexium.sendSocketIORequest=(socket, event, data)=>{
   }
   
 
-Nexium.callPy = (key, args) => {
-    Nexium.emitEvent('function_call', { func: key, args: args });
-};
+Nexium.callPy = (key, args)=>{
+    this.emitEvent('function_call', { func: key, args: args });
+},
 
 Nexium.callPyreturn = (key, args, callback)=>{
-    Nexium.emitEvent('function_return', { func: key, args: args });
-    Nexium.onEvent('function_return', d => {
+    this.emitEvent('function_return', { func: key, args: args });
+    this.onEvent('function_return', d => {
         callback(d['return']);
     });
 },
