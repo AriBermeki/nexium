@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "poetrypackagetemplate"
-version = "0.1.1"
+name = "nexium"
+version = "0.0.1"
 description = ""
-authors = ["edkrueger <edkrueger@gmail.com>"]
+authors = ["AriBermeki <ari.bermeki.de@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.11"
 
 [tool.poetry.dev-dependencies]
 black = "*"
